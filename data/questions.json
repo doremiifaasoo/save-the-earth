@@ -1,0 +1,56 @@
+{
+    "question_1": {
+        "text": "Can a plastic food container with oily residue be recycled in the blue bin?",
+        "options": [
+            "A) Yes, all plastic is recyclable.",
+            "B) No, contamination ruins the batch."
+        ],
+        "correct": "B",
+        "explanation": "Contamination from food waste ruins the recycling process. Always rinse it first!"
+    },
+    "question_2": {
+        "text": "Where should your family dispose of old electronic charging cables or broken tablets in Singapore?",
+        "options": [
+            "A) The blue household recycling bin.",
+            "B) A specialized E-waste recycling bin (like ALBA bins)."
+        ],
+        "correct": "B",
+        "explanation": "E-waste contains heavy metals that require special handling. They should never go into the general blue bins!"
+    },
+    "question_3": {
+        "text": "Your family just received a grey 'Bloobox' from the NEA. What is its main purpose?",
+        "options": [
+            "A) To store food waste for composting.",
+            "B) To help households sort and collect clean recyclables at home before heading to the blue bin."
+        ],
+        "correct": "B",
+        "explanation": "The Bloobox was distributed to Singapore households to make it easy for families to separate clean recyclables right at the source!"
+    },
+    "question_4": {
+        "text": "You found an empty metal Milo tin. Before tossing it into the Blue Bin, what should your child do?",
+        "options": [
+            "A) Ensure it is empty and give it a quick rinse.",
+            "B) Crush it and throw it in immediately with the plastic lid attached."
+        ],
+        "correct": "A",
+        "explanation": "Leftover drink residue can attract pests and contaminate papers in the blue bin. A quick rinse keeps the recycling stream clean!"
+    },
+    "question_5": {
+        "text": "Which of these items CANNOT be recycled in Singapore's Blue Bin?",
+        "options": [
+            "A) Cardboard delivery boxes.",
+            "B) Used tissue papers and disposable paper cups."
+        ],
+        "correct": "B",
+        "explanation": "Used tissues are unhygienic, and paper cups are lined with plastic waterproof coatings. Both must go to the general waste bin!"
+    },
+    "question_6": {
+        "text": "Singapore's only landfill, Semakau Landfill, is filling up fast! By which year is it projected to run out of space if we don't recycle right?",
+        "options": [
+            "A) 2035",
+            "B) 2050"
+        ],
+        "correct": "A",
+        "explanation": "Semakau Landfill is expected to be completely full by 2035. Reducing waste and recycling properly helps extend its lifespan!"
+    }
+}
