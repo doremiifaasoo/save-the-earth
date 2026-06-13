@@ -9,7 +9,7 @@ Save The Turtles was created with the United Nations Sustainable Development Goa
 
 Save The Turtles bridges this gap by cultivating green habits from an early age. We target young children (ages 7 to 12), leveraging a digital turtle mascot inspired by the classic Tamagotchi loop. Because abstract concepts like "landfill capacity" are hard for children to comprehend, we give their habits a physical form. Proper recycling keeps their pet turtle healthy and growing, while plastic contamination makes their pet weak. This instantly internalises the real-world consequences of their choices.
 
-To keep children excited and engaged, we feature a Recycling Tracker Calculator, which serves as a youth-friendly extension of Singapore's ReturnRight Scheme. Children log their physical recycling to watch their real-world 10-cent deposits add up. We translate these monetary rewards into tangible, kid-friendly milestones—showing them how close they are to securing a $0.50 IKEA ice-cream treat!
+To keep children excited and engaged, we feature a Recycling Tracker Calculator, which serves as a youth-friendly extension of Singapore's ReturnRight Scheme. Children log their physical recycling to watch their real-world 10-cent deposits add up. We translate these monetary rewards into tangible, kid-friendly milestones, showing them how close they are to securing a $0.50 IKEA ice-cream treat!
 
 Finally, we have integrated a dedicated Eco Fun Facts terminal. This section introduces children to national initiatives (like the NEA Bloobox) and educational trivia. By housing these inside a gamified platform, children are naturally incentivised to explore the reading sections to help unlock new evolution stages for their turtle.
 
