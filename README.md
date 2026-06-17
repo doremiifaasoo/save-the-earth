@@ -1,19 +1,28 @@
 Save The Turtles: Gamifying household recycling for young children (ages 7 to 12)
 
+Title and Description:
+Save The Turtles is a modular, text-based educational game designed to gamify household recycling for children aged 7 to 12 years old, by tying digital habits to a digital pet turtle. Built with the United Nations Sustainable Development Goal 12 (Responsible Consumption and Production) in mind, this project plans to reverse low recycling rates by turning abstract concepts into immediate, simple feedback.  
+
 Table of Contents:
-Save The Turtles: An Overview
-Project Structure
+1. Features
+2. How to Run  
+3. File Structure & Design Justification
+4. Reflection & References 
 
-1. Save The Turtles: An Overview
-Save The Turtles was created with the United Nations Sustainable Development Goals (SDGs) in mind-specifically SDG 12: Responsible Consumption and Production. Despite Singapore's strong recycling infrastructure, household recycling rates remain low due to limited visibility, motivation, and immediate feedback at the individual household level.
+1. Features 
+-Tamagotchi-inspired Mascot Loop: Utilised OOP for its progression system, where proper recycling habits directly increase the turtle's mascot health and weight, while plastic contamination inflicts penalties.
+-ReturnRight Tracker Calculator: Translates beverage containers carrying the BCRS Deposit Mark into real-world monetary savings, specifically tailored for kid-friendly goals (e.g. a $0.50 IKEA ice-cream)
+-Eco fun-facts terminal: Displays local environmental trivia that players read to unlock advanced evolution stages for their mascot. 
 
-Save The Turtles bridges this gap by cultivating green habits from an early age. We target young children (ages 7 to 12), leveraging a digital turtle mascot inspired by the classic Tamagotchi loop. Because abstract concepts like "landfill capacity" are hard for children to comprehend, we give their habits a physical form. Proper recycling keeps their pet turtle healthy and growing, while plastic contamination makes their pet weak. This instantly internalises the real-world consequences of their choices.
+2. How to Run
+Prerequisites:
+-Make sure you have Python 3 installed 
+Installation & Execution:
+-Download the repository (click on the green code button on the top right of this page and download zip.)
+-Open the project (launch your terminal and open the unzipped folder)
+-Start the program (type py main.py into the terminal to get started)
 
-To keep children excited and engaged, we feature a Recycling Tracker Calculator, which serves as a youth-friendly extension of Singapore's ReturnRight Scheme. Children log their physical recycling to watch their real-world 10-cent deposits add up. We translate these monetary rewards into tangible, kid-friendly milestones, showing them how close they are to securing a $0.50 IKEA ice-cream treat!
-
-Finally, we have integrated a dedicated Eco Fun Facts terminal. This section introduces children to national initiatives (like the NEA Bloobox) and educational trivia. By housing these inside a gamified platform, children are naturally incentivised to explore the reading sections to help unlock new evolution stages for their turtle.
-
-2. Project Structure
+3. File Structure & Design Justification 
 The project is organised in a modular, clean directory structure to separate data from our core game logic:
 
 📁 data/
@@ -36,3 +45,18 @@ The project is organised in a modular, clean directory structure to separate dat
 
 Root
 -main.py: The primary script and execution entry point for the entire game.
+
+-.gitignore: Keeps local cache out of the cloud repository (e.g. __pycache__)
+
+-requirements.txt: ensures a consistent developer environment (we need this later on for the tele bot)
+
+4. Reflection
+Challenges Faced:
+As this is my very first python project, I faced 2 massive hurdles:
+-I spent a significant amount of time learning how to properly organise my code across different folders, and understanding the standard naming conventions. 
+-This project forced me to move past writing small code to long-detailed scripts, and linking fundamental python concepts together to make a functional running program. 
+
+If I have 2 more weeks:
+I will migrate this terminal game logic into a live telegram bot interface! As of now, I only understand how to generate a unique API token using Telegram's botfather... I plan to port this whole command loop over. I plan to leverage telebot event-driven decorators such that users can just trigger /quiz, /tracker, /ecofacts actions right from their phones. 
+Additionally, I plan to figure out how to save users' game history via FileIO. 
+
