@@ -52,11 +52,11 @@ Root
 
 ## 4. Reflection
 * Challenges Faced:
-As this is my very first python project, I faced 2 massive hurdles:
--I spent a significant amount of time learning how to properly organise my code across different folders, and understanding the standard naming conventions. 
--This project forced me to move past writing small code to long-detailed scripts, and linking fundamental python concepts together to make a functional running program. 
+As this is our very first python project, we faced 2 massive hurdles:
+-We spent a significant amount of time learning how to properly organise my code across different folders, and understanding the standard naming conventions. 
+-This project forced us to move past writing small code to long-detailed scripts, and linking fundamental python concepts together to make a functional running program. 
 
-* If I have 2 more weeks:
-I will migrate this terminal game logic into a live telegram bot interface! As of now, I only understand how to generate a unique API token using Telegram's botfather... I plan to port this whole command loop over. I plan to leverage telebot event-driven decorators such that users can just trigger /quiz, /tracker, /ecofacts actions right from their phones. 
-Additionally, I plan to figure out how to save users' game history via FileIO. 
+* If we have 2 more weeks:
+We will migrate this terminal game logic into a live telegram bot interface! As of now, we only understand how to generate a unique API token using Telegram's botfather... we plan to port this whole command loop over. We plan to leverage telebot event-driven decorators such that users can just trigger /quiz, /tracker, /ecofacts actions right from their phones. 
+Additionally, we plan to figure out how to save users' game history via FileIO. 
 
