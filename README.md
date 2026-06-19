@@ -60,3 +60,10 @@ As this is our very first python project, we faced 2 massive hurdles:
 We will migrate this terminal game logic into a live telegram bot interface! As of now, we only understand how to generate a unique API token using Telegram's botfather... we plan to port this whole command loop over. We plan to leverage telebot event-driven decorators such that users can just trigger /quiz, /tracker, /ecofacts actions right from their phones. 
 Additionally, we plan to figure out how to save users' game history via FileIO. 
 
+* References:
+https://dev.to/pwd9000/github-repository-best-practices-23ck 
+https://github.com/worldbank/template 
+https://worldbank.github.io/template/docs/folders-and-naming.html 
+https://www.geeksforgeeks.org/python/overview-of-requirementstxt-and-direct-github-sources/ 
+
+
