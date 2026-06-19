@@ -9,8 +9,9 @@ class TurtleMascot:
         print(f'Oh no! Inconsistent recycling or plastic contamination made. {self.name} feels weak :-(')
         self.health = max(0, self.health - 15)
         if self.health == 0:
-            #redirect them to the game 
+            #redirect them to the eco fun facts  
             print(f'{self.name} is too weak to play and has checked into the Eco-Hospital.')
+            return 'HOSPITAL'
         else:
             return f'Health: {self.health}/100 | Weight: {self.weight_grams}g'
 

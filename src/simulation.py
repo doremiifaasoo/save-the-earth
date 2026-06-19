@@ -28,10 +28,13 @@ def run_quiz(player_turtle):
             print("Correct!")
             print(f"Info: {q_data['explanation']}")
             score += 1
-            player_turtle.feed_turtle()
+            result = player_turtle.feed_turtle()
         else:
             print("Wrong Answer...")
             print(f"The correct answer is: {q_data['correct']}")
             print(f"Info:{q_data['explanation']}")
-            player_turtle.encounter_contamination()
+            result = player_turtle.encounter_contamination()
+            if result == 'HOSPITAL':
+                print('EMERGENCY!! You must study recycling facts to revive your turtle :-(')
+                break
     print(f"Quiz finished!! Your total score: {score}/{questions_answered} points attempted.")
